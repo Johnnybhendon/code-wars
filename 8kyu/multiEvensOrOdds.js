@@ -5,6 +5,6 @@ and by nine otherwise.
 
 //Answer
 
-function simpleMultiplication(number){
-    return number % 2 === 0 ? number * 8 : number * 9
+function simpleMultiplication(num){
+    return num % 2 === 0 ? num * 8 : num * 9
 }
