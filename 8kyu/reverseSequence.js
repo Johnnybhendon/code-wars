@@ -9,7 +9,7 @@ Example : n=5 --> [5,4,3,2,1]
 function reverseSeq(n){
     let arr = []
     for(let i = 1; i <= n; i++){
-        arr.unshift[i]
+        arr.push(i)
     }
-    return arr
+    return arr.reverse()
 }
