@@ -21,11 +21,11 @@ function getGrade(s1,s2,s3) {
     
     if(testAverage >= 90){
         return 'A'
-    }else if(testAverage >= 80 || testAverage < 90){
+    }else if(testAverage >= 80){
         return 'B'
-    }else if(testAverage >= 70 || testAverage < 80){
+    }else if(testAverage >= 70){
         return 'C'
-    }else if(testAverage >= 60 || testAverage < 70){
+    }else if(testAverage >= 60){
         return 'D'
     }else{
         return 'F'
